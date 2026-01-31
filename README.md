@@ -6,6 +6,8 @@ This repository houses the foundational data engineering architecture for a quan
 
 The system was originally architected to serve as the backend for an internal enterprise analytics dashboard, providing staff with the ability to filter, visualize, and run calculations on high-fidelity market data. This repository focuses on the data acquisition, quality assurance, and feature engineering layers that powered those downstream applications.
 
+[*Click here to read the full case study*](https://jswindell.dev/blogs/data-pipeline/)
+
 ## Architecture
 
 The platform follows a modern "Lakehouse" pattern with strict data quality gates:
