@@ -1,0 +1,21 @@
+﻿name: quant-data-pipeline
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pandas
+  - numpy
+  - requests
+  - pycoingecko
+  - python-dotenv
+  - google-cloud-storage
+  - pyarrow
+  - streamlit
+  - matplotlib
+  - seaborn
+  - ta-lib
+  - pytest
+  - plotly
+  - tqdm
