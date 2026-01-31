@@ -1,0 +1,20 @@
+# Environment Variables
+.env
+
+# Python Cache & Dependencies
+__pycache__/
+*.pyc
+venv/
+*.egg-info/
+/personal
+
+# Data & Cache Files
+# Ignore the local cache directory and any output data files
+cache/
+*.parquet
+*.csv
+
+# IDE & OS specific
+.idea/
+.vscode/
+.DS_Store
