@@ -105,3 +105,7 @@ The platform aggregates data from three primary professional-grade sources:
 * **Point-in-Time Correctness**: Feature engineering respects publication lags to prevent lookahead bias in modeling.
 * **Hybrid Caching**: Implements a custom `GCSCachingManager` that utilizes both local disk and Google Cloud Storage to minimize API costs and latency.
 * **Fail-Fast Architecture**: Pipelines are designed to exit immediately upon critical data quality failures to prevent downstream pollution.
+
+## Disclaimer
+
+This repository is a sanitized version of a production system created for Crypt0nest.io. All sensitive keys, company-specific logic, and proprietary data have been removed or anonymized.
